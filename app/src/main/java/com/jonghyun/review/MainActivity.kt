@@ -27,7 +27,6 @@ class MainActivity : AppCompatActivity() {
                         } else {
                             Toast.makeText(this@MainActivity, "리뷰 노출 실패 task1:: ${task1.exception.toString()}", Toast.LENGTH_SHORT)
                                 .show()
-
                         }
                     }
                 } else {
